@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>reactClock</title>
+</head>
+<body>
+
+<div class="reactClock" data-date="2020-10-31" data-time="00:00" data-type="" data-tz="Asia/Tokyo" data-min="d:60"></div>
+<br>
+<div class="reactClock" data-date="2020-10-31" data-time="00:00" data-type="d" data-tz=""></div>
+<div class="reactClock" data-date="2020-10-31" data-time="00:00" data-type="h" data-tz=""></div>
+<div class="reactClock" data-date="2020-10-31" data-time="00:00" data-type="i" data-tz=""></div>
+<div class="reactClock" data-date="2020-10-31" data-time="00:00" data-type="s" data-tz=""></div>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="reactClock.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $('.reactClock').reactClock();
+    });
+</script>
+</html>
